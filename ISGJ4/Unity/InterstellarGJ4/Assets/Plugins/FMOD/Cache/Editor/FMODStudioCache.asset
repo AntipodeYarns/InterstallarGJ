@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8713103429098694013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Thrust
+  m_EditorClassIdentifier: 
+  Path: event:/Thrust
+  Guid:
+    Data1: 240957466
+    Data2: 1222522216
+    Data3: 1006647447
+    Data4: 2115745981
+  Banks:
+  - {fileID: 8700565395940772689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6769011437086356297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ISGJ4_Audio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638084835820101934
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &-757898615526597704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Other SFX
+  m_EditorClassIdentifier: 
+  Path: event:/Other SFX
+  Guid:
+    Data1: 278460262
+    Data2: 1309599407
+    Data3: -816572227
+    Data4: 256399851
+  Banks:
+  - {fileID: -389110346904996844}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-389110346904996844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFXBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ISGJ4_Audio/Build/Desktop/SFXBank.bank
+  Name: SFXBank
+  StudioPath: bank:/SFXBank
+  lastModified: 638084835820229860
+  FileSizes:
+  - Name: Desktop
+    Value: 1202
+  Exists: 1
+--- !u!114 &-109556254860472295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ISGJ4_Audio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638084835820127048
+  FileSizes:
+  - Name: Desktop
+    Value: 1122
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -109556254860472295}
+  - {fileID: 932824630408902106}
+  - {fileID: -6769011437086356297}
+  - {fileID: 7352679146565276674}
+  - {fileID: -389110346904996844}
+  - {fileID: 8700565395940772689}
+  EditorEvents:
+  - {fileID: 9038787724958877934}
+  - {fileID: 516824149420375757}
+  - {fileID: -757898615526597704}
+  - {fileID: -8713103429098694013}
+  - {fileID: 3813525204134952277}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6769011437086356297}
+  StringsBanks:
+  - {fileID: -109556254860472295}
+  cacheTime: 638084835820229860
+  cacheVersion: 131601
+--- !u!114 &516824149420375757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 102743084
+    Data2: 1077973715
+    Data3: -258804087
+    Data4: 1374707742
+  Banks:
+  - {fileID: 7352679146565276674}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &932824630408902106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AmbienceBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ISGJ4_Audio/Build/Desktop/AmbienceBank.bank
+  Name: AmbienceBank
+  StudioPath: bank:/AmbienceBank
+  lastModified: 638084835820177471
+  FileSizes:
+  - Name: Desktop
+    Value: 1202
+  Exists: 1
+--- !u!114 &3813525204134952277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Main Engine
+  m_EditorClassIdentifier: 
+  Path: event:/Main Engine
+  Guid:
+    Data1: 1540852808
+    Data2: 1151280458
+    Data3: -608298876
+    Data4: -463557140
+  Banks:
+  - {fileID: 8700565395940772689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7352679146565276674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MusicBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ISGJ4_Audio/Build/Desktop/MusicBank.bank
+  Name: MusicBank
+  StudioPath: bank:/MusicBank
+  lastModified: 638084835820157429
+  FileSizes:
+  - Name: Desktop
+    Value: 1202
+  Exists: 1
+--- !u!114 &8700565395940772689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ThrusterBank.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/ISGJ4_Audio/Build/Desktop/ThrusterBank.bank
+  Name: ThrusterBank
+  StudioPath: bank:/ThrusterBank
+  lastModified: 638084835820207462
+  FileSizes:
+  - Name: Desktop
+    Value: 1848
+  Exists: 1
+--- !u!114 &9038787724958877934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience
+  Guid:
+    Data1: -1770641266
+    Data2: 1087273865
+    Data3: 1808375695
+    Data4: -1933772270
+  Banks:
+  - {fileID: 932824630408902106}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
